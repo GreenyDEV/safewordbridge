@@ -10,7 +10,7 @@ const userPreferences = {
     "1006048734708240434": "pepperjack"
 }; // Discord IDs -> Usernames (Ex. Discord ID 1168045766770696193 will show up as Entrpix)
 
-const httpPort = 3000; // Server Port
+const httpPort = 3001; // Server Port
 const frontend = "public"; // Frontend Directory
 
 const token = ""; // Discord Token
