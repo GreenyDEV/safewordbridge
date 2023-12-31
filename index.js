@@ -46,7 +46,7 @@ client.on("message", require("./lib/handlers/client/message")(client, groupDM_ID
 client.login(token);
 
 
-httpServer.listen(`${httpPort}`, () => {
+httpServer.listen(httpPort, () => {
     console.log(colors.bgGreen.black("[ ✔ ]") + colors.bold.green(" HTTP Server mounted on port ") + colors.brightGreen.underline(httpPort))
 
 });
